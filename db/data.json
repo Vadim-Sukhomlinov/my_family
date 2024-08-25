@@ -1,0 +1,39 @@
+{
+    "data": [
+        {
+            "userName": "Vadim Sukhomlinov",
+            "parentID": 2,
+            "role": [
+                "Natalia & Vlodimir son",
+                "Ekaterina husband",
+                "fronternd developer"
+            ],
+            "image": "public/me.JPG",
+            "childID": 1
+        },
+        {
+            "userName": "Vlodimir Sukhomlinov",
+            "role": ["father", "Natalia husband", "pensioner", "grandfather"],
+            "image": "public/me.JPG",
+            "parentID": 1
+        },
+        {
+            "userName": "Ekaterina Sukhomlinova",
+            "role": ["Emilia mother", "wife", "housewife"],
+            "image": "public/me.JPG",
+            "parentID": 3
+        },
+        {
+            "userName": "Emilia Sukhomlinova",
+            "role": ["daughter"],
+            "image": "public/me.JPG",
+            "childID": 2
+        },
+        {
+            "userName": "Natalia Sukhomlinova",
+            "role": ["grandmother", "teacher", "Vadim mother", "Vlodimir wife"],
+            "image": "public/me.JPG",
+            "parentID": 1
+        }
+    ]
+}
