@@ -1,0 +1,18 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gridContainer > div:nth-child(4) {
+    grid-column: span 2;
+}
+
+.gridContainer > div:nth-child(6) {
+    grid-column: span 3;
+}
