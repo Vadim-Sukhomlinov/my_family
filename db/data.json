@@ -12,28 +12,35 @@
             "childID": 1
         },
         {
-            "userName": "Vlodimir Sukhomlinov",
+            "userName": "Vladimir Sukhomlinov",
             "role": ["father", "Natalia husband", "pensioner", "grandfather"],
-            "image": "public/me.JPG",
+            "image": "public/vladimir.JPG",
             "parentID": 1
         },
         {
             "userName": "Ekaterina Sukhomlinova",
             "role": ["Emilia mother", "wife", "housewife"],
-            "image": "public/me.JPG",
-            "parentID": 3
+            "image": "public/katia.JPG",
+            "parentID": 2,
+            "childID": 3
         },
         {
             "userName": "Emilia Sukhomlinova",
             "role": ["daughter"],
-            "image": "public/me.JPG",
+            "image": "public/emilia.JPG",
             "childID": 2
         },
         {
             "userName": "Natalia Sukhomlinova",
             "role": ["grandmother", "teacher", "Vadim mother", "Vlodimir wife"],
-            "image": "public/me.JPG",
+            "image": "public/mother.JPG",
             "parentID": 1
+        },
+        {
+            "userName": "Natalia Kramar",
+            "role": ["grandmother", "medician", "Katia mother"],
+            "image": "public/kramar.JPG",
+            "parentID": 3
         }
     ]
 }
